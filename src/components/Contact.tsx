@@ -25,7 +25,7 @@ function Contact() {
                         <input 
                             type="hidden"
                             name="_next"
-                            value="http://localhost:5173" />
+                            value="https://myptf.netlify.app" />
 
                         <div className="flex flex-col items-center gap-10 pt-20 font-bold">
                             <input

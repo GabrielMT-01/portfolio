@@ -153,7 +153,7 @@ function Hero() {
                         <a 
                             href="/Gabriel Sousa CV - Desenvolvedor Front-End Júnior.pdf" 
                             download="Gabriel_Sousa_CV.pdf" 
-                            className="mt-10 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(0,0,0,0.25)] hover:bg-white active:scale-95 w-[15vw] min-w-[150px] text-center tracking-[5px] font-montserrat font-medium bg-[#E5E5E5] shadow-[0_4px_12px_rgba(0,0,0,0.15)] px-5 py-2 rounded-full block"
+                            className="mt-10 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(0,0,0,0.25)] hover:bg-white active:scale-95 lg:w-[25vw] min-w-[150px] text-center tracking-[5px] font-montserrat font-medium bg-[#E5E5E5] shadow-[0_4px_12px_rgba(0,0,0,0.15)] px-5 py-2 rounded-full block"
                         >
                             <span>DOWNLOAD CV</span>
                         </a>

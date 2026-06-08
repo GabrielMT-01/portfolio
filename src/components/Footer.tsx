@@ -22,7 +22,7 @@ function Footer() {
                                         <FaGithub className='size-5 lg:size-7'/>
                                     </a>
                             </div>
-                            <p>@2020 Tomasz Gajda All Rights Reserved.</p>
+                            <p>@2026 Gabriel Martins All Rights Reserved.</p>
                     </div>
                 
             </div>

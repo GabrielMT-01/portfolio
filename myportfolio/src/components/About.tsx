@@ -1,16 +1,18 @@
 function About() {
 
     return(
-        <section id="about" className="bg-[#d7d7d7]">
+        <section id="about" className="bg-[#d7d7d7] scroll-mt-20">
             
             <div className="pt-15 pb-15">
                 <h2 className="flex justify-center items-center border-black border-10 px-4 py-2 m-auto w-[210px] text-black h-[68px]  lg:w-[410px] lg:h-[123px] lg:text-3xl font-montserrat font-bold tracking-[7px]">ABOUT ME</h2>
+                <img className="m-auto mt-7 w-[280px] h-[50px] lg:w-[420px] lg:h-[75px]" src="/separatorBlackquality.png" alt="separatorwhite"/>
             </div>
                 <p className=" max-w-[900px]
                     mx-auto
                     text-center
                     text-lg
-                    lg:text-3xl
+                    lg:text-lg
+                    lg:w-[60%]
                     text-gray-700
                     font-montserrat
                     leading-relaxed
@@ -26,10 +28,6 @@ function About() {
                     <br />
                     I'm always looking for new challenges, opportunities to grow, and ways to become a better developer every day.
                 </p>
-
-                
-
-                <img className="m-auto mt-10 w-[180px] h-[20px] sm:w-[180px] sm:h-[12px] lg:w-[280px] lg:h-[22px]" src="/separatorBlack.png" alt="separatorblack"/>
 
                 
         </section>

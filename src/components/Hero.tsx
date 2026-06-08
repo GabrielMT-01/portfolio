@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { AtSign, Download  } from "lucide-react";
+import { AtSign} from "lucide-react";
 import { FaGithub, FaLinkedin, FaArrowDown } from "react-icons/fa";
 
 const DESKTOP_SPLIT_TOP = "48%";

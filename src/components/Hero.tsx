@@ -18,7 +18,7 @@ function Hero() {
                     src="/Background.png"
                     alt="background"
                 />
-                {/* Removemos o mt-30 daqui e adicionamos z-10 + pt-20 para dar espaço ao topo com segurança */}
+                
                 <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-white pt-20 px-6">
                     <p className="font-normal text-xl sm:text-2xl md:text-3xl text-center">
                         Hi! My name is Gabriel
@@ -33,7 +33,7 @@ function Hero() {
                         alt="separator"
                     />
                     
-                    {/* LINKS DO MOBILE - Agora 100% clicáveis */}
+                    
                     <div className="mt-6 flex gap-5 sm:gap-6 pointer-events-auto relative z-20">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielmartdesouza@gmail.com" target="_blank" rel="noopener noreferrer" className="block">
                             <MobileSocialIcon>
@@ -71,7 +71,7 @@ function Hero() {
 
             {/* Desktop lg+ */}
             <div className="hidden lg:block relative h-screen w-full overflow-hidden">
-                {/* Backgrounds cortados com clipPath */}
+                
                 <div
                     className="absolute inset-0 bg-[#d7d7d7]"
                     style={{
@@ -130,7 +130,7 @@ function Hero() {
                             Front-end Developer
                         </p>
                         
-                        {/* LINKS DO DESKTOP CORRIGIDOS */}
+                        
                         <div className="flex gap-3 xl:gap-4 2xl:gap-5 mt-4 lg:mt-5 xl:mt-6">
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielmartdesouza@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <SocialButton aria-label="Email">
@@ -149,7 +149,7 @@ function Hero() {
                             </a>
                         </div>
                         
-                        {/* BOTÃO DO SEU CV (FAZ DOWNLOAD AUTOMÁTICO DO PDF) */}
+                        
                         <a 
                             href="/Gabriel Sousa CV - Desenvolvedor Front-End Júnior.pdf" 
                             download="Gabriel_Sousa_CV.pdf" 
@@ -172,7 +172,7 @@ function Hero() {
     );
 }
 
-// COMPONENTE MOBILE ATUALIZADO (Trocado button por span para funcionar no celular)
+
 function MobileSocialIcon({ children }: { children: ReactNode }) {
     return (
         <div className="text-white transition-all duration-300 hover:scale-110 hover:text-orange-400 active:scale-95">
